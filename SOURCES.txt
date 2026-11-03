@@ -1,0 +1,137 @@
+3dCRASH — FLIGHT, IMPACT & AFTERMATH SOURCE NOTES
+Checked November 3, 2026. This is an evidence review, not an NTSB finding.
+
+1. FAA accident/incident statements
+https://www.faa.gov/newsroom/statements/accident_incidents
+November 1 entry: Learjet 60; Austin–Bergstrom departure; intended North
+Eleuthera destination; nine aboard; accident near Cresthaven, Florida.
+
+2. NTSB case ERA27MA026
+https://www.ntsb.gov/investigations/Pages/ERA27MA026.aspx
+Identifies the aircraft and operation. Preliminary and ongoing.
+
+3. NTSB docket status
+https://data.ntsb.gov/Docket/?NTSBNumber=ERA27MA026
+The docket had not been released when checked. No claim is made that every
+government record, ATC recording, 911 call or forensic result is public.
+
+4. Flightradar24 public flight data and ATC review
+https://www.flightradar24.com/blog/flight-tracking-news/major-incident/learjet-60-crashes-near-west-palm-beach-florida/
+N722BD; Austin departure 15:37 UTC; reported icing/turbulence and subsequent
+overspeed/high-rate descent; public track downloads. The last changing
+barometric altitude used in the replay is 8,750 ft at approximately
+17:49:22 UTC. This boundary is not the end of all public data: later
+horizontal position samples are retained as geographic context. They do
+not supply a measured terminal altitude history. Position observations do
+not establish aircraft attitude, airspeed, exact final impact vector or
+intactness. The rendered descent below the altitude-data boundary is
+explicitly illustrative, including its timing and aircraft orientation.
+The ATC account here is FR24's review, not a certified transcript produced
+by this website. Aircraft registry serial data is not a reported match to
+a serial number recovered at the accident site.
+
+5. NTSB investigation methods / Go Team
+https://www.ntsb.gov/investigations/process/Pages/goteam.aspx
+Investigators combine structural, engine, radar/ATC, weather and impact
+evidence. Our inference from this multi-source method: a crater photograph
+alone cannot establish the identity of the object in this accident.
+
+6. Official NTSB briefing link, for further review
+https://www.youtube.com/live/9utTZTQbKz8
+NTSB November 2 briefing. This package does not claim a complete verified
+transcript of the briefing and does not embed it.
+
+7. Public ATC excerpt (third-party hosting, not a complete official release)
+https://commons.wikimedia.org/wiki/File:N722BD_crash_ATC_traffic.oga
+Direct file:
+https://upload.wikimedia.org/wikipedia/commons/5/5e/N722BD_crash_ATC_traffic.oga
+The Commons file page lists a 1 minute 56 second Ogg audio excerpt, dated
+November 1, 2026, imported from third-party video/social sources. The page
+attributes it to the FAA and Nathalia Gadelha Filgueiras. Its presence and
+metadata were verified; that is not authentication of a complete recording,
+an official FAA release or a certified transcript. Check the source page
+for current provenance and licensing statements. No synthetic narration
+is presented as authentic ATC.
+
+8. Witness-video reference (linked, not embedded)
+https://www.foxnews.com/video/6407759711112
+Duration: 0:41. Published November 1, 2026.
+Credit: Aki Kuusisto via Storyful.
+This linked witness reference is not bundled or embedded. The animation
+does not claim camera-calibrated measurements or recovered geometry from
+that clip. A visual reference does not uniquely determine aircraft speed,
+mass, orientation, impact energy, crater dimensions or cause.
+
+9. 911-call coverage / official records channels
+Status: complete public 911-call release unverified as of this review.
+This package does not contain a verified complete 911-call set and does
+not infer that unretrieved records do not exist. No invented or synthesized
+emergency calls are passed off as original recordings.
+
+PBSO Public Records Request:
+https://www.pbso.org/public-records-request
+PBSO Central Records:
+https://www.pbso.org/inside-pbso/general/central-records
+Palm Beach County Fire Rescue contact / Records Custodian:
+https://discover.pbc.gov/pbcfr/Pages/Contact-Us.aspx
+These official pages provide records-request/contact routes. Linking them
+does not mean a request was submitted, a specific record was released or
+all recordings are available without review. No request was submitted.
+
+REFERENCE CLIP AUDIT
+The following uploaded references were supplied by the user. They are used
+for visual review, not as independently authenticated accident measurements.
+
+ScreenRecording_11-03-2026 03-07-53_1.mp4, 00:13:
+The cockpit imagery carries the displayed credit "Video by CoPilot Nathalia
+Gadelha 9/2/26". That date differs from the November 1 accident; do not label
+it as authenticated cockpit footage of the accident flight.
+
+ScreenRecording_11-03-2026 03-09-59_1.mp4, 00:35 and 00:38:
+Rendered aerial reconstruction and generated aircraft overlay. The
+missing-stabilizer caption does not itself prove an actual separation.
+
+ScreenRecording_11-03-2026 03-11-21_1.mp4, 00:02:
+Generic illustrated "BOMB CRATER" / "PLANE CRASH CRATER" comparison.
+Not a site photograph, measured section, survey, or valid classifier.
+
+v15044gf0000dbkghnnog65tcphu27ig.mp4, 01:10 and 01:14:
+CG energy graphic and crater. "14 TONNES OF TNT" is not a verified impact
+energy or explosive-yield measurement for this accident.
+
+PHYSICS ILLUSTRATION
+Kinetic energy = one half × mass × speed squared. Impact may transfer
+energy into structural deformation, fragmentation, ground displacement,
+heat and sound. Fuel burning and a high-explosive detonation are different
+processes; an observed fireball does not by itself establish a warhead.
+Ground composition, moisture, pavement, breakup and impact geometry also
+affect the final depression. No reverse calculation of object identity,
+missile/drone probability, TNT yield or measured crater geometry is made.
+
+The main film uses a separate illustrative terminal section at 20–27
+seconds, contact near 26.5 seconds, and an aerial context view at 27–30
+seconds, followed by inspection controls. These are presentation timings,
+not the actual duration or acceleration history of the terminal descent.
+The terminal aircraft, pieces, smoke, fire and ground scar are original
+renderer elements, not extracted wreckage geometry or surveyed damage.
+The map uses true-north geographic coordinates; the nose follows the
+illustrated direction of travel, not a permanently north-facing attitude.
+
+WEATHER AND NARRATION LIMITS
+Archived weather and the crew's reported icing/turbulence provide context.
+Radar alone does not recreate exact cockpit conditions, ice accumulation,
+three-dimensional cloud boundaries or the cause of loss of control.
+Terminal-scene haze and lighting are illustrative rendering treatments.
+
+The revised narrator uses device speech synthesis with improved voice
+selection and pacing. Its quality depends on installed/browser-provided
+voices. Recorded-natural-voice generation was blocked by the provider's
+credit limit; no MP3 was generated. The test browser exposed no English
+voice, so audible voice quality was not verified there. Generated narration
+is clearly distinct from the linked third-party ATC excerpt.
+
+AFTERMATH BASEMAP
+Extent: longitude -80.145 to -80.082; latitude 26.615 to 26.660.
+Marker: preliminary NTSB coordinates -80.113590, 26.633412.
+Credits: Esri, Vantor, Earthstar Geographics, and the GIS User Community.
+This is a geographic basemap composite, not dated accident-site imagery.

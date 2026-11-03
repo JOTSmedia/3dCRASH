@@ -1,0 +1,75 @@
+/* Bounded evidence lab. Original reconstruction styles remain untouched. */
+#impact-nav{white-space:nowrap}
+@media(max-width:680px){body.impact-ready>header{display:grid;grid-template-columns:1fr;height:auto;min-height:66px;gap:5px;padding:8px 10px}body.impact-ready>header nav{display:grid;grid-template-columns:1.18fr .8fr .8fr 1.35fr;width:100%;margin:0;gap:4px}body.impact-ready>header nav button{font-size:8px!important;padding:7px 4px!important;white-space:normal;line-height:1.25}body.impact-ready>header strong{font-size:15px}}
+#impact-lab[hidden]{display:none!important}
+#impact-lab{position:fixed;inset:66px 0 0;z-index:30;overflow:auto;background:radial-gradient(ellipse at 12% 4%,#183c46 0,transparent 40%),#07101bf5;color:#e7edf7;font:14px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backdrop-filter:blur(18px)}
+#impact-lab *{box-sizing:border-box}
+#impact-lab button,#impact-lab a{touch-action:manipulation}
+#impact-lab button{cursor:pointer;color:#e7edf7;background:#142436;border:1px solid #34485e;border-radius:7px;padding:9px 12px;font:inherit;font-size:12px;letter-spacing:.025em}
+#impact-lab button:hover,#impact-lab button:focus-visible{border-color:#69e1cd;outline:2px solid #69e1cd;outline-offset:2px}
+#impact-lab button[aria-pressed=true],#impact-lab button[aria-selected=true]{background:#17483e;border-color:#69e1cd;color:#bbfff0}
+#impact-lab a{color:#83e8d9;text-decoration:underline;text-underline-offset:3px}
+#impact-lab .il-shell{max-width:1440px;margin:auto;padding:24px 28px 40px}
+#impact-lab .il-top{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:18px}
+#impact-lab .il-kicker{font-size:10px;font-weight:750;letter-spacing:.18em;color:#69e1cd;text-transform:uppercase}
+#impact-lab h1{font-size:clamp(23px,2.8vw,38px);font-weight:650;letter-spacing:-.035em;margin:5px 0 7px;line-height:1.12}
+#impact-lab h2{font-size:19px;line-height:1.25;letter-spacing:-.025em;margin:4px 0 12px}
+#impact-lab h3{font-size:13px;text-transform:uppercase;letter-spacing:.07em;margin:0 0 9px}
+#impact-lab p{margin:8px 0;color:#c2cedc}
+#impact-lab small{color:#9aacc1;font-size:11px}
+#impact-lab .il-intro{max-width:810px;margin:0}
+#impact-lab .il-top-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;flex-shrink:0}
+#impact-lab .il-tabs{display:flex;gap:8px;border-bottom:1px solid #293b4e;padding-bottom:14px;margin-bottom:20px;flex-wrap:wrap}
+#impact-lab .il-tabs button{font-size:11px;letter-spacing:.08em}
+#impact-lab .il-pane[hidden]{display:none}
+#impact-lab .il-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(280px,1fr);gap:18px}
+#impact-lab .il-card{background:#0b1625e8;border:1px solid #2a3e52;border-radius:12px;padding:19px;box-shadow:0 12px 35px #0002}
+#impact-lab .il-view{position:relative;overflow:hidden;border:1px solid #2e495b;border-radius:12px;background:#081520}
+#impact-lab .il-view canvas{display:block;width:100%;height:430px;touch-action:pan-y}
+#impact-lab .il-view-label{position:absolute;top:15px;left:16px;right:16px;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;pointer-events:none}
+#impact-lab .il-badge{background:#0b1522e8;border:1px solid #a88445;color:#edbd77;border-radius:4px;padding:5px 8px;font-size:9px;font-weight:700;letter-spacing:.09em;max-width:320px}
+#impact-lab .il-scene-hint{position:absolute;bottom:15px;left:16px;right:16px;font-size:10px;color:#acbfce;pointer-events:none}
+#impact-lab .il-scene-step{position:absolute;top:57px;left:17px;font-size:12px;letter-spacing:.07em;color:#ebf4fa;pointer-events:none}
+#impact-lab .il-controls{display:flex;align-items:center;gap:12px;padding:13px 15px;background:#0e1a28;border-top:1px solid #2a3e52}
+#impact-lab .il-controls input{min-width:50px;flex:1;accent-color:#69e1cd}
+#impact-lab .il-clock{font:11px ui-monospace,SFMono-Regular,Consolas,monospace;white-space:nowrap;color:#bcd5e3}
+#impact-lab .il-caption{min-height:66px;padding:13px 17px;color:#cbd6e1;font-size:12px;border-top:1px solid #2a3e52}
+#impact-lab .il-stack{display:flex;flex-direction:column;gap:14px}
+#impact-lab .il-equation{display:flex;gap:10px;align-items:baseline;margin:12px 0 5px;font:600 27px Georgia,serif;color:#eff5fc}
+#impact-lab .il-equation span{font:11px system-ui;color:#9eafc2}
+#impact-lab .il-energy{display:grid;grid-template-columns:80px minmax(0,1fr);align-items:center;gap:10px;font-size:10px;letter-spacing:.03em;margin:10px 0}
+#impact-lab .il-meter{height:6px;background:#223345;border-radius:5px;overflow:hidden}
+#impact-lab .il-meter i{height:100%;display:block;width:0;background:#69e1cd;border-radius:5px;transition:width .08s linear}
+#impact-lab .il-meter.il-gold i{background:#edbd77}
+#impact-lab .il-note{padding:10px 12px;border-left:2px solid #edbd77;background:#edbd7709;color:#d9c6a3;font-size:12px}
+#impact-lab .il-phase{font-size:10px;letter-spacing:.08em;color:#69e1cd;margin-bottom:6px}
+#impact-lab .il-factors{display:flex;gap:7px;flex-wrap:wrap;margin:13px 0}
+#impact-lab .il-factors span{font-size:10px;border:1px solid #34495d;border-radius:30px;padding:4px 9px;color:#b8cbda}
+#impact-lab .il-map{position:relative;aspect-ratio:1.5;overflow:hidden;border-radius:9px;border:1px solid #395062;background:#112438}
+#impact-lab .il-map img{width:100%;height:100%;display:block;object-fit:fill}
+#impact-lab .il-map:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#07101b44,transparent 45%,#07101b55);pointer-events:none}
+#impact-lab .il-map-point{position:absolute;left:49.857%;top:59.084%;width:15px;height:15px;border:2px solid #fff;border-radius:50%;background:#ff806b;transform:translate(-50%,-50%);z-index:2;box-shadow:0 0 0 7px #ff806b30,0 0 25px #000}
+#impact-lab .il-map-label{position:absolute;left:calc(49.857% + 14px);top:calc(59.084% - 12px);padding:5px 8px;background:#07101be8;border:1px solid #4a6072;border-radius:4px;font:10px ui-monospace,monospace;z-index:2;max-width:46%}
+#impact-lab .il-map-north{position:absolute;top:14px;right:17px;color:white;z-index:2;font:600 12px system-ui;text-shadow:0 1px 5px #000}
+#impact-lab .il-map-caption{font-size:11px;color:#a3b8ca;margin-top:12px}
+#impact-lab .il-verdict{border-top:2px solid #69e1cd}
+#impact-lab .il-status{font-size:10px;font-weight:700;letter-spacing:.12em;color:#69e1cd;display:block;margin-bottom:9px}
+#impact-lab .il-unknown{border-top:2px solid #edbd77}
+#impact-lab .il-unknown .il-status{color:#edbd77}
+#impact-lab .il-checks{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:12px}
+#impact-lab .il-checks li{display:grid;grid-template-columns:18px 1fr;gap:6px;font-size:12px;color:#c9d6e1}
+#impact-lab .il-checks li>span:first-child{color:#69e1cd;font-weight:bold}
+#impact-lab .il-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+#impact-lab .il-audit-list{display:grid;gap:13px}
+#impact-lab .il-audit{display:grid;grid-template-columns:92px 1fr;gap:16px}
+#impact-lab .il-audit-time{border:1px solid #37526a;background:#12283b;border-radius:7px;padding:13px 5px;text-align:center;align-self:start;font:600 17px ui-monospace,monospace;color:#edbd77}
+#impact-lab .il-audit-time small{display:block;font:9px system-ui;letter-spacing:.08em;margin-top:5px}
+#impact-lab .il-audit p{font-size:13px;max-width:900px}
+#impact-lab .il-linkrow{display:flex;gap:16px;flex-wrap:wrap;padding:18px 0 0;font-size:11px}
+#impact-lab .il-footer{margin:22px 0 0;padding-top:14px;border-top:1px solid #26394c;color:#839bae;font-size:10px;letter-spacing:.03em}
+#impact-lab .il-narration-status{font-size:10px;color:#c4d4e1;min-height:16px;text-align:right}
+#endnotice .il-entry{display:block;margin:15px auto 0!important;color:#d2fff5!important;border-color:#69e1cd!important;pointer-events:auto!important}
+@media(max-width:1000px){#impact-lab .il-grid{grid-template-columns:1fr}#impact-lab .il-stack{display:grid;grid-template-columns:1fr 1fr}#impact-lab .il-top{gap:12px}#impact-lab .il-top-actions{max-width:190px}#impact-lab .il-view canvas{height:430px}}
+@media(max-width:680px){#impact-lab{inset:66px 0 0}#impact-lab .il-shell{padding:20px 14px 30px}#impact-lab .il-top{display:block}#impact-lab .il-top-actions{max-width:none;justify-content:flex-start;margin-top:14px}#impact-lab .il-tabs{gap:6px}#impact-lab .il-tabs button{padding:9px 8px;font-size:9px}#impact-lab .il-card{padding:15px}#impact-lab .il-view canvas{height:330px}#impact-lab .il-stack,#impact-lab .il-two{grid-template-columns:1fr}#impact-lab .il-view-label{left:11px;top:11px;right:11px}#impact-lab .il-badge{font-size:8px;max-width:230px}#impact-lab .il-scene-step{top:53px;left:12px;font-size:10px}#impact-lab .il-audit{grid-template-columns:65px 1fr;gap:11px}#impact-lab .il-audit-time{font-size:14px}#impact-lab .il-map-label{font-size:8px}#impact-lab .il-narration-status{text-align:left}#impact-nav{font-size:9px!important;padding:7px!important}#impact-lab .il-intro{font-size:12px}}
+@media(prefers-reduced-motion:reduce){#impact-lab *{scroll-behavior:auto!important;transition:none!important}}
+
