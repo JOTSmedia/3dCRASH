@@ -1,0 +1,5 @@
+0–6: This Learjet sixty flew from Austin toward North Eleuthera.
+6–12: The crew reported turbulence and icing. Archived radar adds time-matched weather context.
+12–22: After a brief climb, the track descended rapidly and turned right. The cause is not established by this track.
+22–27: The path shows motion, not the aircraft's exact attitude.
+27–30: Usable altitude data ends here.
